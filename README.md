@@ -6,18 +6,8 @@ A clean, scalable production-ready backend boilerplate using **Express**, **Type
 
 ## 📦 Installation
 
-### Option 1: Use as NPM Package (Recommended)
-
 ```bash
 npm install @nikhil-plava/node-ts-boilerplate
-```
-
-### Option 2: Clone the Repository
-
-```bash
-git clone https://github.com/nikhil-plava/node-ts-boilerplate.git
-cd node-ts-boilerplate
-npm install
 ```
 
 ---
@@ -350,12 +340,6 @@ Existing connections are completed before exit (30-second timeout).
 
 ---
 
-## 📚 Documentation
-
-- **API Documentation**: See `CONTRIBUTING.md` for contribution guidelines
-- **Publishing Guide**: See `NPM_PUBLISH_GUIDE.md` for npm publishing
-- **Issues & Features**: Report on [GitHub Issues](https://github.com/nikhil-plava/node-ts-boilerplate/issues)
-
 ---
 
 ## 🤝 Contributing
@@ -393,9 +377,8 @@ Free for personal and commercial use! ✨
 
 ## 💬 Questions?
 
-- **Email**: nikhil@example.com
-- **GitHub**: [@nikhil-plava](https://github.com/nikhil-plava)
-- **NPM**: [@nikhil-plava/node-ts-boilerplate](https://www.npmjs.com/package/@nikhil-plava/node-ts-boilerplate)
+- **Email**: nikhil.pk.connect@example.com
+- **GitHub**: [@nikhilpktcr](https://github.com/nikhilpktcr)
 
 ---
 
