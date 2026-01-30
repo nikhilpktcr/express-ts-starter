@@ -1,12 +1,18 @@
 # 🏗️ EXPRESS-TS-STARTER
 
-A clean, scalable production-ready backend boilerplate using **Express**, **TypeScript**, and the **MVC architecture** with **Functional Service pattern**.
+[![npm version](https://badge.fury.io/js/@nikhil-plava%2Fnode-ts-boilerplate.svg)](https://badge.fury.io/js/@nikhil-plava%2Fnode-ts-boilerplate)
+[![npm downloads](https://img.shields.io/npm/dm/@nikhil-plava/node-ts-boilerplate.svg)](https://www.npmjs.com/package/@nikhil-plava/node-ts-boilerplate)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
+[![Express.js](https://img.shields.io/badge/Express-5.1-green.svg)](https://expressjs.com/)
+
+A clean, scalable production-ready backend boilerplate using **Express**, **TypeScript**, and the **MVC architecture** with **Functional Service pattern**. Build secure, enterprise-grade REST APIs in minutes.
 
 ---
 
 ## 📌 What's Included?
 
-This boilerplate comes with everything you need to build robust backend applications:
+This production-ready boilerplate provides everything needed to build professional, scalable REST APIs and backend services:
 
 | Feature               | Details                                               |
 | --------------------- | ----------------------------------------------------- |
@@ -26,7 +32,20 @@ This boilerplate comes with everything you need to build robust backend applicat
 
 ---
 
-## 🚀 Quick Overview
+## 🎯 Why Choose This Boilerplate?
+
+✅ **Zero Configuration** - Works out of the box  
+✅ **Production-Ready** - Security and performance optimized  
+✅ **Fully Typed** - Complete TypeScript support with type inference  
+✅ **Best Practices** - Industry-standard patterns and conventions  
+✅ **Scalable** - MVC architecture ready for enterprise growth  
+✅ **Well-Tested** - Jest setup with example test cases  
+✅ **Developer Experience** - Hot reload, linting, and formatting included  
+✅ **Active Maintenance** - Regular updates and community support
+
+---
+
+## 📌 Quick Feature Overview
 
 ```
 ✨ Modern Express.js boilerplate
@@ -42,8 +61,19 @@ This boilerplate comes with everything you need to build robust backend applicat
 
 ## 📦 Installation
 
+**Get started in seconds:**
+
 ```bash
 npm install @nikhil-plava/node-ts-boilerplate
+```
+
+Or clone and customize:
+
+```bash
+git clone https://github.com/nikhilpktcr/express-ts-starter.git
+cd express-ts-starter
+npm install
+npm run dev
 ```
 
 ---
@@ -411,20 +441,49 @@ Free for personal and commercial use! ✨
 
 ---
 
-## 💬 Questions?
+## 💬 Questions & Support
 
 - **Email**: nikhil.pk.connect@gmail.com
+- **GitHub Issues**: [Report bugs](https://github.com/nikhilpktcr/express-ts-starter/issues)
 - **GitHub**: [@nikhilpktcr](https://github.com/nikhilpktcr)
 
 ---
 
-## 🌟 Support
+## 🌟 Show Your Support
 
-If you found this helpful, please:
+If this boilerplate helps your project:
 
-- ⭐ Star the repository
-- 📦 Use the npm package
-- 🐛 Report issues
-- 💡 Suggest improvements
+- ⭐ **Star the repository** on GitHub
+- 📦 **Use the npm package** in your projects
+- 🐛 **Report issues** you encounter
+- 💡 **Suggest features** and improvements
+- 🔄 **Share** with other developers
 
-**Happy coding!** 🚀
+Your support helps improve this project for everyone!
+
+---
+
+## 📊 Trending Keywords
+
+This boilerplate is perfect for developers searching for:
+
+- Express TypeScript starter
+- Node.js REST API boilerplate
+- Production-ready backend template
+- MVC Node.js project
+- TypeScript Express API
+- MongoDB Express starter
+- Secure Node.js backend
+- Express authentication template
+
+---
+
+## 🚀 Ready to Build?
+
+Start building your next API with this production-ready boilerplate. Clone, customize, and deploy in minutes!
+
+```bash
+npm install @nikhil-plava/node-ts-boilerplate
+```
+
+**Happy coding!** 🎉

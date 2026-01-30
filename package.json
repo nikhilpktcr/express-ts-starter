@@ -1,7 +1,7 @@
 {
   "name": "@nikhil-plava/node-ts-boilerplate",
   "version": "1.0.0",
-  "description": "A production-ready Node.js + TypeScript boilerplate with Express, MVC architecture, security features, and best practices",
+  "description": "Production-ready Express.js + TypeScript boilerplate with MVC architecture, JWT auth, MongoDB, security, validation, and testing—build scalable REST APIs fast",
   "main": "dist/server.js",
   "types": "dist/server.d.ts",
   "files": [
@@ -20,30 +20,51 @@
     "prepublishOnly": "npm run build && npm test"
   },
   "keywords": [
-    "nodejs",
-    "typescript",
     "express",
+    "typescript",
+    "nodejs",
     "boilerplate",
+    "starter-template",
     "mvc",
     "rest-api",
+    "backend",
     "authentication",
+    "jwt",
     "mongodb",
     "mongoose",
+    "security",
     "helmet",
     "cors",
-    "validated",
-    "starter-template"
+    "validation",
+    "middleware",
+    "production-ready",
+    "scalable",
+    "testing",
+    "jest",
+    "error-handling",
+    "logging",
+    "bcryptjs",
+    "express-validator",
+    "api-development",
+    "web-server",
+    "backend-template"
   ],
-  "author": "Nikhil Plava <nikhil@example.com>",
+  "author": {
+    "name": "Nikhil Plavalappil Kuttan",
+    "email": "nikhil.pk.connect@gmail.com",
+    "url": "https://github.com/nikhilpktcr"
+  },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nikhil-plava/node-ts-boilerplate.git"
+    "url": "https://github.com/nikhilpktcr/express-ts-starter.git",
+    "directory": "."
   },
   "bugs": {
-    "url": "https://github.com/nikhil-plava/node-ts-boilerplate/issues"
+    "url": "https://github.com/nikhilpktcr/express-ts-starter/issues",
+    "email": "nikhil.pk.connect@gmail.com"
   },
-  "homepage": "https://github.com/nikhil-plava/node-ts-boilerplate#readme",
+  "homepage": "https://github.com/nikhilpktcr/express-ts-starter#readme",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "chalk": "^5.4.1",
