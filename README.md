@@ -1,7 +1,7 @@
 # 🏗️ EXPRESS-TS-STARTER | Express TypeScript Boilerplate
 
-[![npm version](https://badge.fury.io/js/@nikhil-plava%2Fnode-ts-boilerplate.svg)](https://badge.fury.io/js/@nikhil-plava%2Fnode-ts-boilerplate)
-[![npm downloads](https://img.shields.io/npm/dm/@nikhil-plava/node-ts-boilerplate.svg)](https://www.npmjs.com/package/@nikhil-plava/node-ts-boilerplate)
+[![npm version](https://badge.fury.io/js/express-ts-starter.svg)](https://badge.fury.io/js/express-ts-starter)
+[![npm downloads](https://img.shields.io/npm/dm/express-ts-starter.svg)](https://www.npmjs.com/package/express-ts-starter)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
 [![Express.js](https://img.shields.io/badge/Express-5.1-green.svg)](https://expressjs.com/)
@@ -70,7 +70,7 @@ This production-ready Express.js + TypeScript boilerplate includes everything No
 ### Option 1: Install as npm Package (Recommended)
 
 ```bash
-npm install @nikhil-plava/node-ts-boilerplate
+npm install express-ts-starter
 ```
 
 ### Option 2: Clone & Customize
@@ -489,7 +489,7 @@ This boilerplate is perfect for developers searching for:
 Start building your next API with this production-ready boilerplate. Clone, customize, and deploy in minutes!
 
 ```bash
-npm install @nikhil-plava/node-ts-boilerplate
+npm install express-ts-starter
 ```
 
 **Happy coding!** 🎉

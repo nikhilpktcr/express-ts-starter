@@ -1,5 +1,5 @@
 {
-  "name": "@nikhil-plava/node-ts-boilerplate",
+  "name": "express-ts-starter",
   "version": "1.0.0",
   "description": "Production-ready Express.js + TypeScript boilerplate with MVC architecture, JWT auth, MongoDB, security, validation, and testing—build scalable REST APIs fast",
   "main": "dist/server.js",
