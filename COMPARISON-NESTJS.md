@@ -1,3 +1,4 @@
+
 # Express-TS-API-Starter vs NestJS: Detailed Comparison
 
 ## 📊 Quick Overview
@@ -11,6 +12,7 @@
 | **TypeScript Support** | ✅ Full native                | ✅ Full native               |
 | **Built-in Features**  | ✅ Security, Auth, Validation | ✅ Extensive decorators      |
 | **Performance**        | ⚡ Fast & lightweight         | ⚡ Fast (heavier runtime)    |
+
 | **Community**          | 📚 Huge (Express ecosystem)   | 📚 Growing (NestJS-specific) |
 | **Production Ready**   | ✅ Yes                        | ✅ Yes                       |
 
