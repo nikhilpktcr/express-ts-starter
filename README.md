@@ -13,34 +13,48 @@
 
 ## 📌 Quick Demo
 
-```typescript
-// Your API is ready with authentication, validation, and error handling out of the box!
-import app from 'express-ts-api-starter';
+**Create a new project in seconds:**
 
-// Start building your endpoints immediately
-app.get('/api/v1/users', (req, res) => {
-  // Request ID automatically attached: req.headers['x-request-id']
-  // Error handling: Global middleware catches all errors
-  // Validation: Built-in express-validator ready
-  res.json({ message: 'API is running!' });
-});
+```bash
+npx express-ts-api-starter my-api
+cd my-api
+npm install
+npm run dev
 ```
+
+Your API is ready with authentication, validation, and error handling out of the box!
 
 ---
 
 ## 🚀 Quick Start
 
-### Install
+### Option 1: Using CLI (Recommended)
+
+Create a new project with a single command:
 
 ```bash
-npm install express-ts-api-starter
+npx express-ts-api-starter my-api
 ```
 
-### Launch Your Project
+This will:
+- ✅ Create a new project directory
+- ✅ Copy all template files and folder structure
+- ✅ Set up configuration files
+- ✅ Create `.env` file from `.env.example`
+
+Then:
+
+```bash
+cd my-api
+npm install
+npm run dev
+```
+
+### Option 2: Manual Installation
 
 ```bash
 # Clone the repository
-git clone https://github.com/nikhilpktcr/express-ts-starter.git my-api
+git clone https://github.com/nikhilpktcr/express-ts-api-starter.git my-api
 cd my-api
 
 # Install dependencies
@@ -92,6 +106,20 @@ npm run dev
 | **TypeScript** | Sometimes | ✅ **100% TypeScript with strict mode** |
 | **Documentation** | Minimal | ✅ **Well-documented with examples** |
 | **Testing** | Sometimes | ✅ **Jest with test examples included** |
+| **CLI Tool** | Sometimes | ✅ **Built-in CLI generator** |
+
+### vs. NestJS
+
+| Feature | NestJS | express-ts-api-starter |
+|---------|--------|------------------------|
+| **Setup Time** | 10-15 minutes | ⚡ **2 minutes** |
+| **Learning Curve** | High (new framework) | ✅ **Low (Express knowledge)** |
+| **Bundle Size** | ~200KB+ | ✅ **~50KB (lightweight)** |
+| **Flexibility** | Framework-driven | ✅ **High (minimal abstraction)** |
+| **Request Tracking** | Manual setup | ✅ **Built-in request IDs** |
+| **Security (Out of Box)** | Manual config | ✅ **Pre-configured** |
+
+📖 **[See detailed NestJS comparison →](COMPARISON-NESTJS.md)**
 
 ---
 
@@ -152,6 +180,7 @@ npm run dev
 
 ### Developer Experience
 
+- ✅ **CLI Tool** - Generate projects with one command
 - ✅ **Hot reload** - See changes instantly
 - ✅ **TypeScript declarations** - Full IntelliSense support
 - ✅ **Pre-configured scripts** - dev, build, test, lint
@@ -349,7 +378,7 @@ Free for personal and commercial use! ✨
 ## 💬 Support
 
 - **Email**: nikhil.pk.connect@gmail.com
-- **GitHub Issues**: [Report bugs](https://github.com/nikhilpktcr/express-ts-starter/issues)
+- **GitHub Issues**: [Report bugs](https://github.com/nikhilpktcr/express-ts-api-starter/issues)
 - **GitHub**: [@nikhilpktcr](https://github.com/nikhilpktcr)
 
 ---
@@ -381,7 +410,7 @@ If this boilerplate helps your project:
 **Ready to build?** Start your next API project in minutes:
 
 ```bash
-npm install express-ts-api-starter
+npx express-ts-api-starter my-api
 ```
 
 **Happy coding!** 🎉

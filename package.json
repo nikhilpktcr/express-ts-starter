@@ -1,13 +1,24 @@
 {
   "name": "express-ts-api-starter",
-  "version": "1.0.1",
+  "version": "1.2.0",
   "description": "Production-ready Express.js + TypeScript boilerplate with MVC architecture, JWT auth, MongoDB, security, validation, and testing—build scalable REST APIs fast",
   "main": "dist/server.js",
   "types": "dist/server.d.ts",
+  "bin": {
+    "express-ts-api-starter": "./bin/cli.mjs"
+  },
   "files": [
+    "src",
     "dist",
     "!dist/**/*.test.js",
     "!dist/**/*.spec.js",
+    "scripts",
+    "bin",
+    "tsconfig.json",
+    "eslint.config.js",
+    "jest.config.ts",
+    ".env.example",
+    ".gitignore",
     "README.md",
     "LICENSE"
   ],

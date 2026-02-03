@@ -1,24 +1,4 @@
-# Development files
-src/
-scripts/
-*.test.ts
-*.spec.ts
-**/*.test.js
-**/*.spec.js
-
-# Configuration files
-.env
-.env.example
-.env.local
-.env.*.local
-tsconfig.json
-eslint.config.js
-jest.config.ts
-.eslintignore
-.prettierrc
-.prettierignore
-
-# Build and output
+# Development files that shouldn't be published
 node_modules/
 *.log
 npm-debug.log*
@@ -26,7 +6,13 @@ yarn-debug.log*
 yarn-error.log*
 lerna-debug.log*
 
-# IDE and editor
+# Environment files (keep .env.example, exclude actual .env)
+.env
+.env.local
+.env.*.local
+!.env.example
+
+# IDE and editor files
 .vscode/
 .idea/
 *.swp
@@ -44,15 +30,20 @@ lerna-debug.log*
 .gitlab-ci.yml
 .travis.yml
 
-# Other
+# Build artifacts and reports
 eslint-report.json
 coverage/
-dist/
 .nyc_output/
-*.md
-!README.md
-LICENSE
 
-# Tests
+# Test files (keep structure but exclude test files)
+**/*.test.ts
+**/*.spec.ts
+**/*.test.js
+**/*.spec.js
 jest/
 __tests__/
+
+# Keep dist/ for compiled files
+# Keep src/ for source files
+# Keep scripts/ for utility scripts
+# Keep all config files
